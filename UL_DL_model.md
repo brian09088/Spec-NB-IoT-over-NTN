@@ -89,15 +89,3 @@ https://gist.github.com/brian09088/3e7be0d082590c361b024b6bba04d346
 
 ------
 - 會議記錄(會後討論)
-- merge學姊的程式碼來做combine
-- 先用GEO 單一靜止衛星去試試看
-  - 需要combine參數及設計函數傳遞學姐的程式
-  - 另外寫一個源頭控制function傳遞參數給學姊程式main.m另一個傳遞給自己目前的main.m，只是學姊那邊的UE input格式要再看一下，先去看看chaneel model不同的狀況下對比幾種參考指標能否觀察出差異並且優化，這才是嘗試過後想出來的實驗方法
-  - 一條直接傳給學姊、另一條由衛星
-  - 地面UE用經緯度放置不同位置試試看
-  - 去比較幾種參考指標:
-    - throughput
-    - resource utilization
-    - energy save
-    - subframe消耗個數
-- 再去考慮LEO 多個靜止衛星，然後再去做延伸(動態需考慮doppler還有移動速度以及tle讀取轉換...)
