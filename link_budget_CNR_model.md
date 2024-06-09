@@ -63,8 +63,8 @@
  |          90             |   7.5596   | 0 |
  
 ------ 
- - 因為衛星天線屬於射頻晶片（RF），所以採用SNR而非SNR
- - SNR是總訊號功率比雜訊。 CNR有用訊號功率比噪音
+ - 因為衛星天線屬於射頻晶片（RF），所以採用 **CNR** 而非SNR
+     - SNR是總訊號功率比雜訊。 CNR有用訊號功率比噪音
  - **Satellite CNR Config**:
      - TransmitterPower: 22.9832
      - TransmitterSystemLoss: 0
